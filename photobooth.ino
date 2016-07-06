@@ -63,8 +63,7 @@ void loop() {
         digitalWrite(camera_shutter, LOW);
         strip.setBrightness(20);
         colorWipe(strip.Color(0, 0, 0), 0);
-  
-        delay(2000);
+
       }
   }
 
